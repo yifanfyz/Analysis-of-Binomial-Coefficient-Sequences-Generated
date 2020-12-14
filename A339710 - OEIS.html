@@ -1,0 +1,1155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!-- saved from url=(0030)https://oeis.org/draft/A339710 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style>
+  tt { font-family: monospace; font-size: 100%; }
+  p.editing { font-family: monospace; margin: 10px; text-indent: -10px; word-wrap:break-word;}
+  p { word-wrap: break-word; }
+  </style>
+  
+  <meta name="keywords" content="OEIS,integer sequences,Sloane">
+  
+  
+  <title>A339710 - OEIS</title>
+  <link rel="search" type="application/opensearchdescription+xml" title="OEIS" href="https://oeis.org/oeis.xml">
+  <script>
+  var myURL = "\/draft\/A339710"
+  function redir() {
+      var host = document.location.hostname;
+      if(host != "oeis.org" && host != "127.0.0.1" && host != "localhost" && host != "localhost.localdomain") {
+          document.location = "https"+":"+"//"+"oeis"+".org/" + myURL;
+      }
+  }
+  function sf() {
+      if(document.location.pathname == "/" && document.f) document.f.q.focus();
+  }
+  </script>
+  </head>
+  <body bgcolor="#ffffff" onload="redir();sf()">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr><td width="100%" align="right">
+      <font size="-1">
+      
+        Welcome, <a href="https://oeis.org/history?user=Yifan%20Zhang">Yifan Zhang</a> (<a href="https://oeis.org/logout?redirect=%2fdraft%2fA339710">logout</a>)
+        | <a href="https://oeis.org/draft?user=Yifan%20Zhang">My Drafts (2)</a>
+        
+      
+      </font>
+    </td></tr><tr height="5"><td>
+    </td></tr></tbody></table>
+
+    <center>
+<span style="font-family: sans-serif; font-size: 83%; font-style: italic"><a href="http://oeisf.org/">The OEIS Foundation</a> is supported by donations from users of the OEIS and by a grant from the Simons Foundation.</span>
+    <br>
+<p style="margin-top:-24px">&nbsp;</p>
+<a href="https://oeis.org/"><img border="0" width="600" height="110" src="./A339710 - OEIS_files/banner2021.jpg" alt="Logo"></a>
+    <br>
+<p>
+
+
+<table width="62%" border="0">
+<tbody><tr>
+<td width="68%" align="center">
+<font color="green"><strong>
+Please make a <a href="http://oeisf.org/">donation</a> to keep the OEIS running. We are now in our 56th year. In the past year we added 10000 new sequences and reached almost 9000 <a href="https://oeis.org/wiki/Works_Citing_OEIS">citations</a> 
+(which often say "discovered thanks to the OEIS").
+</strong></font>
+</td>
+<td width="18%" align="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QBBYZ9M33JJTY">
+<input type="image" src="./A339710 - OEIS_files/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+<img alt="" border="0" src="./A339710 - OEIS_files/pixel.gif" width="1" height="1">
+</form>
+</td>
+<td width="14%" align="center">
+<a href="http://oeisf.org/#DONATE">Other ways</a> to donate
+</td>
+</tr>
+</tbody></table>
+
+
+<br>
+
+
+    <!-- no special fonts -->
+    </p></center>
+  
+    <center>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr><td>
+        
+    
+    <center>
+        <form name="f" action="https://oeis.org/search" method="GET">
+            <table cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr><td>
+            <input maxlength="1024" size="55" name="q" value="" title="Search Query">
+            <input type="hidden" name="sort" value="">
+            <input type="hidden" name="language" value="">
+            <input type="submit" value="Search" name="go">
+            </td><td width="10"></td><td>
+            <font size="-2"><a href="https://oeis.org/hints.html">Hints</a></font>
+            </td></tr><tr><td colspan="2">
+            <font size="-1">
+                (Greetings from <a href="https://oeis.org/welcome">The On-Line Encyclopedia of Integer Sequences</a>!)
+            </font>
+            </td></tr></tbody></table>
+        </form>
+    </center>
+<center>
+
+    
+    <center>
+        <h2 style="margin-top:0; margin-bottom:0;">
+        Draft edits for <a href="https://oeis.org/A339710">A339710</a>
+        </h2>
+        (Underlined text is an <ins>addition</ins>;
+        strikethrough text is a <del>deletion</del>.)
+
+        
+            <br><br>
+            <b><i>This sequence contains draft edits but has not been
+            submitted for review.<br>
+            To submit the changes for review, click the button at the bottom.
+            </i></b>
+        
+    </center>
+    <br>
+
+    
+    
+
+    
+        
+    
+    <table width="750" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr height="1"><td>
+        </td></tr><tr height="1" bgcolor="#76767F"><td>
+
+        
+        
+            
+            
+                
+                
+                
+                    </td></tr><tr bgcolor="#EEEEFF"><td valign="top">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody><tr>
+                                <td valign="top" align="left" width="100"><a href="https://oeis.org/A339710">A339710</a>
+                                </td><td width="5">
+                                </td><td valign="top" align="left">
+                                    allocated for Yifan Zhang
+                                    <br>
+                                    <font size="-1">(<a href="https://oeis.org/history?seq=A339710">history</a>;
+                                    
+                                        <a href="https://oeis.org/edit?seq=A339710">edit</a>;
+                                    
+                                    <a href="https://oeis.org/A339710">published version</a>)
+                                    </font>
+                        </td></tr></tbody></table>
+                
+
+                
+                    </td></tr><tr bgcolor="#7F7F66" height="1"><td>
+                    </td></tr><tr bgcolor="#FFFFCC"><td valign="top">Individual edits:
+                
+            
+
+            </td></tr><tr bgcolor="#7F7F66" height="1"><td>
+            
+                </td></tr><tr bgcolor="#FFFFEE">
+                    <td valign="top" align="left" width="100%">
+                        
+                        
+                            <a href="https://oeis.org/history/view?seq=A339710&amp;v=2">#2</a> by <a href="https://oeis.org/history?user=Yifan%20Zhang">Yifan Zhang</a> at Sun Dec 13 14:39:16 EST 2020
+                        
+            
+
+            
+    
+    </td></tr><tr><td valign="top">
+        <table cellspacing="0" cellpadding="2" cellborder="0">
+            
+            
+                
+                    
+                    <tbody><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">NAME</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>allocated for Yifan Zhang</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Sum(binomial(n, k)*binomial(2*n+k, k)*2^k)</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">DATA</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>7, 81, 1051, 14353, 201807, 2891409, 41976627, 615371169, 9089130967, 135048608401, 2016306678987, 30224723308081</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">OFFSET</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>1,1</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">COMMENTS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>The growth constant of this sequence is 15.645361096; The estimated asymptotic is .4906686405*15.64536110^n*(1.-0.9573834564e-1/n+0.5170654906e-2/n^2)/n^.5000000000;</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">REFERENCES</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Frits Beukers, Some Congruences for Apery Numbers, Mathematisch lnsrituut, University of Leiden, 1983, pages 1-2</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">MAPLE</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>getSequence:= proc(F, n, K, N, L1)local ope, i, Ini, ope1, L, coe1, gu, n1:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope:=SumTools[Hypergeometric][Zeilberger](F, n, k, N)[1];</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=expand(ope):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>L:=degree(ope1, N):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>coe1:=coeff(ope1, N, L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=normal(ope1/coe1):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=normal(ope1):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=convert([seq(factor(coeff(ope1, N, i))*N^i, i=ldegree(ope1, N)..degree(ope1, N))], `+`):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>L:=degree(ope1, N):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Ini:=[seq(add(eval(subs({k=k1, n=n1}, F)), k1=0..n1), n1=1..degree(ope, N))]:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>if nops(Ini)&lt;&gt;L then</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ERROR(`Ini should be of length`, L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>fi:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=expand(subs(n=n-L, ope1)/N^L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>gu:=Ini:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>for n1 from nops(Ini)+1 to L1 do</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>gu:=[op(gu), -add(gu[nops(gu)+1-j1]*subs(n=n1, coeff(ope1, N, -j1)),</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>j1=1..L)]:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>od:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>end:</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">CROSSREFS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Cf.<a href="https://oeis.org/A000079" title="Powers of 2: a(n) = 2^n.">A000079</a>:Sum(binomial(n, k)),<a href="https://oeis.org/A000984" title="Central binomial coefficients: binomial(2*n,n) = (2*n)!/(n!)^2.">A000984</a>:Sum(binomial(n, k)^2),<a href="https://oeis.org/A026375" title="a(n) = Sum_{k=0..n} binomial(n,k)*binomial(2*k,k).">A026375</a>:Sum(binomial(n, k)*binomial(2*k, k)),<a href="https://oeis.org/A001850" title="Central Delannoy numbers: a(n) = Sum_{k=0..n} C(n,k)*C(n+k,k).">A001850</a>:Sum(binomial(n, k)*binomial(n+k, k)),<a href="https://oeis.org/A005809" title="a(n) = binomial(3n,n).">A005809</a>:Sum(binomial(n, k)*binomial(2*n, k))</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">KEYWORD</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>allocated</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins><span title="a sequence of nonnegative numbers">nonn</span></ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">AUTHOR</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins><a href="https://oeis.org/wiki/User:Yifan_Zhang">Yifan Zhang</a>, Dec 13 2020</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">STATUS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>approved</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>editing</ins>
+                
+                </tt></p>
+            
+        </td></tr></tbody></table>
+
+
+            
+            </td></tr><tr bgcolor="#FFFFFF" height="4"><td>
+        
+
+        </td></tr><tr height="10"><td>
+    </td></tr></tbody></table>
+
+        
+        
+    
+
+    
+        
+    
+    <table width="750" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr height="1"><td>
+        </td></tr><tr height="1" bgcolor="#76767F"><td>
+
+        
+        
+            
+            
+                
+                
+                
+
+                
+                    </td></tr><tr bgcolor="#7F7F66" height="1"><td>
+                    </td></tr><tr bgcolor="#FFFFCC"><td valign="top">All edits since published version (omitting small deletions for readability):
+                
+            
+
+            </td></tr><tr bgcolor="#7F7F66" height="1"><td>
+            
+
+            
+    
+    </td></tr><tr><td valign="top">
+        <table cellspacing="0" cellpadding="2" cellborder="0">
+            
+            
+                
+                    
+                    <tbody><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">NAME</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>allocated for Yifan Zhang</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Sum(binomial(n, k)*binomial(2*n+k, k)*2^k)</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">DATA</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>7, 81, 1051, 14353, 201807, 2891409, 41976627, 615371169, 9089130967, 135048608401, 2016306678987, 30224723308081</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">OFFSET</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>1,1</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">COMMENTS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>The growth constant of this sequence is 15.645361096; The estimated asymptotic is .4906686405*15.64536110^n*(1.-0.9573834564e-1/n+0.5170654906e-2/n^2)/n^.5000000000;</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">REFERENCES</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Frits Beukers, Some Congruences for Apery Numbers, Mathematisch lnsrituut, University of Leiden, 1983, pages 1-2</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">MAPLE</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>getSequence:= proc(F, n, K, N, L1)local ope, i, Ini, ope1, L, coe1, gu, n1:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope:=SumTools[Hypergeometric][Zeilberger](F, n, k, N)[1];</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=expand(ope):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>L:=degree(ope1, N):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>coe1:=coeff(ope1, N, L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=normal(ope1/coe1):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=normal(ope1):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=convert([seq(factor(coeff(ope1, N, i))*N^i, i=ldegree(ope1, N)..degree(ope1, N))], `+`):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>L:=degree(ope1, N):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Ini:=[seq(add(eval(subs({k=k1, n=n1}, F)), k1=0..n1), n1=1..degree(ope, N))]:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>if nops(Ini)&lt;&gt;L then</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ERROR(`Ini should be of length`, L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>fi:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>ope1:=expand(subs(n=n-L, ope1)/N^L):</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>gu:=Ini:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>for n1 from nops(Ini)+1 to L1 do</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>gu:=[op(gu), -add(gu[nops(gu)+1-j1]*subs(n=n1, coeff(ope1, N, -j1)),</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>j1=1..L)]:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>od:</ins>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>end:</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">CROSSREFS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>Cf.<a href="https://oeis.org/A000079" title="Powers of 2: a(n) = 2^n.">A000079</a>:Sum(binomial(n, k)),<a href="https://oeis.org/A000984" title="Central binomial coefficients: binomial(2*n,n) = (2*n)!/(n!)^2.">A000984</a>:Sum(binomial(n, k)^2),<a href="https://oeis.org/A026375" title="a(n) = Sum_{k=0..n} binomial(n,k)*binomial(2*k,k).">A026375</a>:Sum(binomial(n, k)*binomial(2*k, k)),<a href="https://oeis.org/A001850" title="Central Delannoy numbers: a(n) = Sum_{k=0..n} C(n,k)*C(n+k,k).">A001850</a>:Sum(binomial(n, k)*binomial(n+k, k)),<a href="https://oeis.org/A005809" title="a(n) = binomial(3n,n).">A005809</a>:Sum(binomial(n, k)*binomial(2*n, k))</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">KEYWORD</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>allocated</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins><span title="a sequence of nonnegative numbers">nonn</span>,<span title="edited within the last two weeks">changed</span></ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">AUTHOR</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins><a href="https://oeis.org/wiki/User:Yifan_Zhang">Yifan Zhang</a>, Dec 13 2020</ins>
+                
+                </tt></p>
+            
+                
+                    
+                    </td></tr><tr>
+                        <td width="20">
+                        </td><td valign="top" width="100"><font size="-2">STATUS</font>
+                        </td><td width="600">
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <del>approved</del>
+                
+                </tt></p>
+            
+                
+
+                <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+                
+                
+                
+                
+                    <ins>editing</ins>
+                
+                </tt></p>
+            
+        </td></tr></tbody></table>
+
+
+            
+            </td></tr><tr bgcolor="#FFFFFF" height="4"><td>
+        
+
+        </td></tr><tr height="10"><td>
+    </td></tr></tbody></table>
+
+    
+
+    
+        
+            <center>
+            <form method="POST" action="https://oeis.org/edit">
+            <input type="hidden" name="xsrf" value="7f57a62b425b878a51b5cae128064236">
+            <input type="hidden" name="seq" value="A339710">
+            <input type="hidden" name="rev" value="2">
+            <input type="hidden" name="oldrev" value="1">
+            <input type="hidden" name="action" value="comment">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody><tr><td>
+                    <font size="-1">
+                        <b>Discussion of this draft (optional):</b><br>
+                        (Notes entered here will be displayed in the edit history and mailed<br>
+                        to people who have contributed to this draft of the sequence.<br>
+                        THEY DO NOT BECOME PART OF THE PUBLISHED SEQUENCE.)
+                    </font><br>
+                    <textarea cols="60" rows="4" name="comment" style="font-family: serif; font-size: 100%;"></textarea>
+            </td></tr></tbody></table>
+            <br>
+
+            <input type="submit" name="submit_comment" value="Add note to discussion.">
+            <br><br>
+
+            
+
+            
+                <input type="submit" name="submit_proposed" value="These changes are ready for review by an OEIS Editor.">
+                <br><br>
+            
+
+            
+
+            
+
+            
+
+            </form>
+            <br><br>
+            </center>
+        
+    
+
+    
+</center>
+
+      </td></tr>
+    </tbody></table>
+    </center>
+    
+    <p>
+    
+    </p><center>
+      <a href="https://oeis.org/">Lookup</a> |
+      <a href="https://oeis.org/wiki/Welcome"><font color="red">Welcome</font></a> |
+      <a href="https://oeis.org/wiki/Main_Page"><font color="red">Wiki</font></a> |
+      <a href="https://oeis.org/wiki/Special:RequestAccount">Register</a> |
+      
+      <a href="https://oeis.org/play.html">Music</a> |
+      <a href="https://oeis.org/plot2.html">Plot 2</a> |
+      <a href="https://oeis.org/demo1.html">Demos</a> |
+      <a href="https://oeis.org/wiki/Index_to_OEIS">Index</a> |
+      <a href="https://oeis.org/Sbrowse.html">Browse</a> |
+      <a href="https://oeis.org/more.html">More</a> |
+      <a href="https://oeis.org/webcam">WebCam</a>
+      
+      <br>
+      
+      <a href="https://oeis.org/Submit.html">Contribute new seq. or comment</a> |
+      <a href="https://oeis.org/eishelp2.html">Format</a> |
+      <a href="https://oeis.org/wiki/Style_Sheet">Style Sheet</a> |
+      <a href="https://oeis.org/transforms.html">Transforms</a> |
+      <a href="https://oeis.org/ol.html">Superseeker</a> |
+      <a href="https://oeis.org/recent">Recent</a> 
+      
+      <br>
+      
+      <a href="https://oeis.org/community.html">The OEIS Community</a> |
+      Maintained by <a href="http://oeisf.org/">The OEIS Foundation Inc.</a> 
+    </center>
+
+    <p>
+    </p><center>
+   <span style="font-family: sans-serif; font-size: 83%; font-style: italic">
+    <a href="https://oeis.org/wiki/Legal_Documents">
+    License Agreements, Terms of Use, Privacy Policy.
+    </a>.
+    </span>
+    </center>
+
+    <p>
+    </p><center>
+    <font size="-1">Last modified December 13 14:39 EST 2020.  Contains 339182 sequences. (Running on oeis4.)</font>
+    </center>
+    <p>
+    
+  
+
+</p></body></html>
