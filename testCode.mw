@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="18" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="0" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read `ComboProject4.txt`:</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`----------------------------`
+``</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`Team Leader: Yifan Zhang `
+``
+`Other Team members: Hari Amoor, Ariana Yousafzai `
+`-------------------------------------`
+`This is ComboProject4.txt, a Maple package that is part of Project 4 in Dr. Z.'s Combinatorics Class at Rutgers University`
+`Its purpose is to generate a database of all binomial coefficients sum of the form`
+`Sum (binomial(n,k)*binomial(a1*n+b1*k,k),k=0..n)*x^k  for all non-trivial a1, b1,x &lt;=K for some fixed K `
+``
+Also
+``
+`Sum (binomial(n,k)*binomial(a1*n+b1*k,k)*binomial(a2*n+b2*k,k)*x^k,k=0..n)  for all non-trivial a1, b1,a2,b2,x &lt;=K for some fixed K `
+``
+Also
+``
+`Sum (binomial(n,k)*binomial(a1*n+b1*k,k)*binomial(a2*n+b2*k,k),k=0..n)*binomial(a3*n+b3*n)*x^k,k=0..n)`
+`  for all non-trivial a1, b1,a2,b2,a3,b3,x &lt;=K for some fixed K `
+`It gives databases with thw  beginning part of each sequence, the recurrence (generated by the Zeilberger algorithm)`
+`And growh constants and critical exponents. It also tries to investigate congruence properties in the style of Gessel. `
+``
+`For a list of all the functions type: Help(); `
+`For Help with any of the functions, type  Help(FunctionName):`</Text-field>
+</Output>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Help();</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`The available procedures are`
+` AsyOpe, AsySeq, CriExp, FindRec,InfoA1, InfoA2, InfoA3, GrowthConst,  SeqFromRec, Z `</Text-field>
+</Output>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#InfoA1 can generate a database of all binomial coefficients sum of of the form `Sum (binomial(n,k)*binomial(a1*n+b1*k,k),k=0..n)*x^k  for all non-trivial a1, b1,x &lt;=K for some fixed K`</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Here are 10 sequence that are not in the OEIS</Text-field>
+</Input>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[1,1],2],n,k,N,30,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(n+k, k)*2^k, [5, 37, 305, 2641, 23525, 213445, 1961825, 18205345, 170195525, 1600472677, 15122515985, 143457011569, 1365435096485, 13033485491077, 124715953657025, 1195966908404545, 11490534389896325, 110584004488276645, 1065853221648055025, 10287014106804673681, 99405753688666524005, 961645897582745659717, 9312321755433352604705, 90261573203434779663841, 875623588508444822205125, 8501056759214136929642725, 82593104736686174851036625, 802984831074639870961954225, 7811657583573970700976825125, 76038414235105226684342224645], (-n-2)*N^2+(10*n+15)*N-n-1, 9.898979485566356196394568149411782783932, -1/2, .5670906248*9.898979486^n*(1.-.1224224035/n+0.8777942074e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,1],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+k, k)*2^k, [7, 81, 1051, 14353, 201807, 2891409, 41976627, 615371169, 9089130967, 135048608401, 2016306678987, 30224723308081, 454603719479839, 6857319231939537, 103694587800440931], (26*n+43)*(2*n+1)*(n+1)+(-2444*n^3-8930*n^2-10222*n-3547)*N+3*(26*n+17)*(2*n+3)*(n+2)*N^2, 15.64536109683864346842497941285274121688, -1/2, .4906686406*15.64536110^n*(1.-0.9573841036e-1/n+0.5453646783e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,1],3],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+k, k)*3^k, [10, 166, 3088, 60454, 1218460, 25024780, 520775020, 10943577094, 231698146492, 4934774538676, 105611217584080, 2269297848449116, 48925743936026968, 1057873598831062984, 22930324306077547108], 2*(35*n+58)*(2*n+1)*(n+1)+(-12565*n^3-45952*n^2-52685*n-18338)*N+8*(2*n+3)*(35*n+23)*(n+2)*N^2, 22.42635240026831073164801105681990061487, -1/2, .4896311681*22.42635240^n*(1.-0.9649327318e-1/n+0.5025534084e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,2],1],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+2*k, k), [5, 41, 380, 3713, 37375, 383480, 3987485, 41872625, 443042525, 4715882371, 50442144505, 541718997416, 5837510512280, 63086788978485, 683493862210000], -10*(2*n+1)*(n+2)*(n+1)*(1182*n^3+8250*n^2+18713*n+13635)+2*(n+2)*(115836*n^5+1040172*n^4+3556126*n^3+5729928*n^2+4300703*n+1176135)*N+(-378240*n^6-4342080*n^5-20197960*n^4-48421850*n^3-62468090*n^2-40396780*n-9862800)*N^2+3*(3*n+8)*(3*n+7)*(n+3)*(1182*n^3+4704*n^2+5759*n+1990)*N^3, 11.21018711220197645476355637465136604972+0.*I, -1/2, .4796272934*11.21018711^n*(1.-0.8022698668e-1/n+0.6352795324e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,2],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+2*k, k)*2^k, [9, 137, 2349, 42433, 789489, 14971001, 287691525, 5582952449, 109163050137, 2147253727017, 42442360915293, 842291198121025, 16772410878540417, 334952979788693529, 6705884117068886709], -9*(2*n+1)*(n+2)*(n+1)*(8988*n^3+62566*n^2+141529*n+102921)+(n+2)*(2876160*n^5+25773440*n^4+87982308*n^3+141702520*n^2+106464945*n+29208231)*N+(-10192392*n^6-116815608*n^5-542391444*n^4-1297595781*n^3-1670089239*n^2-1077377544*n-262552860)*N^2+6*(3*n+7)*(n+3)*(3*n+8)*(8988*n^3+35602*n^2+43361*n+14970)*N^3, 20.71470340752081663115547803372214666020-0.3e-40*I, -1/2, .4707345508*20.71470341^n*(1.-0.8491009577e-1/n+0.4845645555e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,2],3],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+2*k, k)*3^k, [13, 289, 7228, 190417, 5166343, 142859224, 4003101661, 113276700433, 3229655233285, 92632940372299, 2669817506480137, 77257927623137320, 2243231587685499736, 65322014637963949021, 1906901680429247130928], -26*(2*n+1)*(n+2)*(n+1)*(29546*n^3+205458*n^2+464281*n+337359)+2*(n+2)*(19795820*n^5+177248500*n^4+604724490*n^3+973783976*n^2+731891791*n+201023139)*N+(-218167664*n^6-2498856360*n^5-11594349416*n^4-27715811994*n^3-35640597746*n^2-22970787996*n-5593882320)*N^2+27*(3*n+7)*(n+3)*(3*n+8)*(29546*n^3+116820*n^2+142003*n+48990)*N^3, 30.20449688531949563517879985378156860244-0.3e-40*I, -1/2, .4675251970*30.20449689^n*(1.-0.8660334925e-1/n+0.4294273284e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[3,1],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(3*n+k, k)*2^k, [9, 141, 2481, 45969, 877089, 17054781, 336046041, 6686502561, 134049613497, 2703473842221, 54787688972289, 1114774893229617, 22759329030721617, 465998970695911773, 9565172293833704361], 3*(3*n+2)*(3*n+1)*(n+1)*(550*n^2+1775*n+1422)+(-2839100*n^5-16260300*n^4-35680514*n^3-37185324*n^2-18225206*n-3334188)*N+27*(3*n+5)*(3*n+4)*(n+2)*(550*n^2+675*n+197)*N^2, 21.23756653457977882720615869320763972972, -1/2, .4621195340*21.23756653^n*(1.-0.8938896866e-1/n+0.4169338894e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[3,1],3],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(3*n+k, k)*3^k, [13, 295, 7516, 201631, 5570053, 156812644, 4473533560, 128874362191, 3740655978919, 109224090494095, 3204740427069040, 94408334004912580, 2790587414956961308, 82724463059866852120, 2458410832154587862656], (3*n+2)*(3*n+1)*(n+1)*(990*n^2+3201*n+2570)+(-4383720*n^5-25133328*n^4-55233594*n^3-57688008*n^2-28364954*n-5214180)*N+16*(3*n+5)*(3*n+4)*(n+2)*(990*n^2+1221*n+359)*N^2, 30.74796734531105416281306897252752411866, -1/2, .4613758521*30.74796735^n*(1.-0.8985400074e-1/n+0.4472233312e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[3,2],1],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(3*n+2*k, k), [6, 62, 723, 8886, 112501, 1451771, 18985749, 250742598, 3336645612, 44667605997, 600879118527, 8115786777123, 109988323283793, 1494924201066813, 20369333541782233], -15*(3*n+2)*(3*n+1)*(n+2)*(n+1)*(91200*n^5+1011560*n^4+4428342*n^3+9551947*n^2+10139823*n+4235220)+12*(n+2)*(14774400*n^8+200808720*n^7+1154877804*n^6+3656289884*n^5+6937891539*n^4+8035912451*n^3+5511380865*n^2+2029715117*n+304590420)*N+(316646400*n^9+5095368320*n^8+35623500384*n^7+141635961328*n^6+351735112072*n^5+563384687772*n^4+578865918464*n^3+365377818204*n^2+127502261856*n+18603334800)*N^2-8*(4*n+9)*(2*n+5)*(4*n+11)*(n+3)*(91200*n^5+555560*n^4+1294102*n^3+1424281*n^2+730715*n+139362)*N^3, 14.09846922834953429459185222411767417590, -1/2, .4589760595*14.09846923^n*(1.-0.8120008541e-1/n+0.5364699225e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[3,2],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(3*n+2*k, k)*2^k, [11, 213, 4643, 106625, 2521971, 60797301, 1485254299, 36641956353, 910818608219, 22776213310933, 572321338281363, 14439267812417921, 365528389946364227, 9280093364544316149, 236193293201022685323], -27*(3*n+2)*(3*n+1)*(n+2)*(n+1)*(1419174*n^5+15725673*n^4+68802672*n^3+148402979*n^2+157651238*n+65958816)+6*(n+2)*(1545480486*n^8+20988959112*n^7+120657527397*n^6+382020356034*n^5+725440719768*n^4+841691434780*n^3+579033340141*n^2+214311683658*n+32413243104)*N+(76188356190*n^9+1225174535955*n^8+8560753910064*n^7+34023947139630*n^6+84490663464198*n^5+135404253096147*n^4+139338612939084*n^3+88234198608492*n^2+30977396839200*n+4567471349760)*N^2-64*(4*n+11)*(2*n+5)*(4*n+9)*(n+3)*(1419174*n^5+8629803*n^4+20091720*n^3+22157261*n^2+11446474*n+2214384)*N^3, 26.33435865440093501997270343632487933701-0.10e-39*I, -1/2, .4528054697*26.33435865^n*(1.-0.8432961458e-1/n+0.4644148416e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#A001850 Central Delannoy numbers: a(n)=Sum_{k=0..n} C(n,k)*C(n+k,k).</Text-field>
+</Input>
+</Group>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#One of its comments is: Number of paths from (0,0) to (n,n) in an n*n grid using only steps north, northeast and east(i.e. steps(1,0), (1,1), (0,1))</Text-field>
+</Input>
+</Group>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#The extended Maple package (that I started)</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#The output file(s) consisting of many integer sequences (in the style of the OEIS)</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#The write-up (a .pdf) summarizing the approach, describing the purpose of the project, and describing any global trends (either conjectured or proved)</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#The sequences that you belived were worth submitting to the OEIS, that were accepted by them, and their OEIS &quot;A numbers&quot;.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Help(InfoA1);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`InfoA1(A,n,k,N,L1,r): Given  A=[[a1,b1],x]`
+` where a1 , b1 and x are positive integers `</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">` and a small positive integer r, outputs a list consisting of `
+` (i) The summand binomial(n,k)*binomial(a1*n+b1*k,k)*x^k `
+` (ii) The first L1 terms of the sequence Sum(binomial(n,k)*binomial(a1*n+b1*k,k)*x^k,k=0..n) `
+` (iii) The recurrence operator satisfied by the sequence using the Zeilberger algorithm `
+` (iv) The growth constant `
+` (v) The critical exponent `
+` (vi) The estimated asymptotics to order r `
+` Try: `
+` InfoA1([[1,0],1],n,k,N,100,2); `</Text-field>
+</Output>
+</Group>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[2,1],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(2*n+k, k)*2^k, [7, 81, 1051, 14353, 201807, 2891409, 41976627, 615371169, 9089130967, 135048608401, 2016306678987, 30224723308081, 454603719479839, 6857319231939537, 103694587800440931], (26*n+43)*(2*n+1)*(n+1)+(-2444*n^3-8930*n^2-10222*n-3547)*N+3*(26*n+17)*(2*n+3)*(n+2)*N^2, 15.64536109683864346842497941285274121688, -1/2, .4906686405*15.64536110^n*(1.-0.9573834564e-1/n+0.5170654906e-2/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L52" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SeqFromRec(Z(binomial(n, k)*binomial(n+2*k, k)*2^k, k,n,N), n ,N,);</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20SeqFromRec%20uses%20a%203rd%20argument,%20N,%20which%20is%20missing" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: SeqFromRec uses a 3rd argument, N, which is missing</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L53" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[1,1],1],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)*binomial(n+k, k), [3, 13, 63, 321, 1683, 8989, 48639, 265729, 1462563, 8097453, 45046719, 251595969, 1409933619, 7923848253, 44642381823], (-n-2)*N^2+(6*n+9)*N-n-1, 5.828427124746190097603377448419396157140, -1/2, .5726816326*5.828427125^n*(1.-.1174174736/n+0.1081169484e-1/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L54" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA1([[1,0],2],n,k,N,15,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)^2*2^k, [3, 13, 63, 321, 1683, 8989, 48639, 265729, 1462563, 8097453, 45046719, 251595969, 1409933619, 7923848253, 44642381823], (n+2)*N^2+(-6*n-9)*N+n+1, 5.828427124746190097603377448419396157140, -1/2, .5726816326*5.828427125^n*(1.-.1174174304/n+0.1072461725e-1/n^2)/n^.5000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L55" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Help(InfoA1);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`InfoA1(A,n,k,N,L1,r): Given  A=[[a1,b1],x]`</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">` where a1 , b1 and x are positive integers `
+` and a small positive integer r, outputs a list consisting of `
+` (i) The summand binomial(n,k)*binomial(a1*n+b1*k,k)*x^k `
+` (ii) The first L1 terms of the sequence Sum(binomial(n,k)*binomial(a1*n+b1*k,k)*x^k,k=0..n) `
+` (iii) The recurrence operator satisfied by the sequence using the Zeilberger algorithm `
+` (iv) The growth constant `
+` (v) The critical exponent `
+` (vi) The estimated asymptotics to order r `
+` Try: `
+` InfoA1([[1,0],1],n,k,N,100,2); `</Text-field>
+</Output>
+</Group>
+<Group labelreference="L56" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S:=InfoA1([[1,1],2],n,k,N,15,2)[5];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">S := -1/2</Text-field>
+</Output>
+</Group>
+<Group labelreference="L57" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L58" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">v1:=&lt;1,2,3,4,5,6,7,8,9,10&gt;;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">v1 := Vector[column](10, {1 = 1, 2 = 2, 3 = 3, 4 = 4, 5 = 5, 6 = 6, 7 = 7, 8 = 8, 9 = 9, 10 = 10}, datatype = anything, storage = rectangular, order = Fortran_order, shape = [])</Text-field>
+</Output>
+</Group>
+<Group labelreference="L59" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">v2:=&lt;S[2]&gt;;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">v2 := Vector[column](10, {1 = 5, 2 = 37, 3 = 305, 4 = 2641, 5 = 23525, 6 = 213445, 7 = 1961825, 8 = 18205345, 9 = 170195525, 10 = 1600472677}, datatype = anything, storage = rectangular, order = Fortran_order, shape = [])</Text-field>
+</Output>
+</Group>
+<Group labelreference="L60" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(v1,v2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Maple Plot" layout="Maple Plot"><Plot height="400.0" type="two-dimensional" width="410.0" plot-scale="1.0" plot-xtrans="0.0" plot-ytrans="0.0" gridlinevisibility="1" legendvisibility="false">NiktJSdDVVJWRVNHNiQ3LDckJCIjNSEiIiQiI10hIiI3JCQiIz8hIiIkIiRxJCEiIjckJCIjSSEiIiQiJV1JISIiNyQkIiNTISIiJCImNWsjISIiNyQkIiNdISIiJCInXV9CISIiNyQkIiNnISIiJCIoXVc4IyEiIjckJCIjcSEiIiQiKV0jPSc+ISIiNyQkIiMhKSEiIiQiKVhgPz0iIiE3JCQiIyEqISIiJCIqRGI+cSIiIiE3JCQiJCsiISIiJCIreEVaKzsiIiEtJSZDT0xPUkc2JyUkUkdCRyQiKUMpZXElISIpJCIiISEiIiQiKCc+IVwmISIpLSUrX0FUVFJJQlVURUc2Iy8lJ3NvdXJjZUclLG1hdGhkZWZhdWx0Ry0mJSZfQVhJU0c2IyIiIjYnLSUrX0dSSURMSU5FU0c2Jy0lJkNPTE9SRzYmJSRSR0JHJCIiISEiIiQiIiEhIiIkIiIhISIiLSUqTElORVNUWUxFRzYjIiIhLSUqVEhJQ0tORVNTRzYjIiIhLSUtVFJBTlNQQVJFTkNZRzYjJCIiISEiIi0lKV9WSVNJQkxFRzYjIiIhLSUmQ09MT1JHNiYlJFJHQkckIiIhISIiJCIiISEiIiQiIiEhIiItJSpMSU5FU1RZTEVHNiMiIiEtJSpUSElDS05FU1NHNiMiIiEtJS1UUkFOU1BBUkVOQ1lHNiMkIiIhISIiLSYlJl9BWElTRzYjIiIjNictJStfR1JJRExJTkVTRzYnLSUmQ09MT1JHNiYlJFJHQkckIiIhISIiJCIiISEiIiQiIiEhIiItJSpMSU5FU1RZTEVHNiMiIiEtJSpUSElDS05FU1NHNiMiIiEtJS1UUkFOU1BBUkVOQ1lHNiMkIiIhISIiLSUpX1ZJU0lCTEVHNiMiIiEtJSZDT0xPUkc2JiUkUkdCRyQiIiEhIiIkIiIhISIiJCIiISEiIi0lKkxJTkVTVFlMRUc2IyIiIS0lKlRISUNLTkVTU0c2IyIiIS0lLVRSQU5TUEFSRU5DWUc2IyQiIiEhIiItJStBWEVTTEFCRUxTRzYkUSE2IlEhNiItJSlfVklTSUJMRUc2IyIiIi0lJVJPT1RHNictJSlCT1VORFNfWEc2IyQiJEkoISIiLSUpQk9VTkRTX1lHNiMkIiQ/IiEiIi0lLUJPVU5EU19XSURUSEc2IyQiJWdLISIiLSUuQk9VTkRTX0hFSUdIVEc2IyQiJWdNISIiLSUpQ0hJTERSRU5HNiItJStBTk5PVEFUSU9ORzYnLSUpQk9VTkRTX1hHNiMkIiIhISIiLSUpQk9VTkRTX1lHNiMkIiIhISIiLSUtQk9VTkRTX1dJRFRIRzYjJCIlK1MhIiItJS5CT1VORFNfSEVJR0hURzYjJCIlK1MhIiItJSlDSElMRFJFTkc2Ig==Ig==</Plot></Text-field>
+</Output>
+</Group>
+<Group labelreference="L61" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L62" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L63" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S:=InfoA1([[0,1],1],n,k,N,15,2):</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20Z)%20invalid%20input%3A%20SumTools%3A-Hypergeometric%3A-Zeilberger%20expects%20its%202nd%20argument,%20n,%20to%20be%20of%20type%20name,%20but%20received%201000000" hyperlink="true"><Font style="HyperlinkError">Error, (in Z) invalid input: SumTools:-Hypergeometric:-Zeilberger expects its 2nd argument, n, to be of type name, but received 1000000</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L64" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S1:=S[5];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">S1 := 0</Text-field>
+</Output>
+</Group>
+<Group labelreference="L65" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S2:=S[6];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">S2 := 1.0*2.000000000^n</Text-field>
+</Output>
+</Group>
+<Group labelreference="L66" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">A:=InfoA1([[1,0],1],n,k,N,15,2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L67" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">A1:=A[5];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">A1 := -1/2</Text-field>
+</Output>
+</Group>
+<Group labelreference="L68" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">A2:=A[6];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">A2 := .5641895836*4.000000000^n*(1.-.1250002059/n+0.8117279551e-2/n^2)/n^.5000000000</Text-field>
+</Output>
+</Group>
+<Group labelreference="L69" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalb(S2-A2&lt;0);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">1.0*2.000000000^n-.5641895836*4.000000000^n*(1.-.1250002059/n+0.8117279551e-2/n^2)/n^.5000000000 &lt; 0</Text-field>
+</Output>
+</Group>
+<Group labelreference="L70" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L71" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L72" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L73" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Z:=proc(F,k,n,N) local ope,i:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope:=SumTools[Hypergeometric][Zeilberger](F,n,k,N)[1];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(factor(coeff(ope,N,i))*N^i,i=0..degree(ope,N)):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">w:=Z(binomial(n, k)*binomial(n+k, k),k,n,N);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">w := (-n-2)*N^2+(6*n+9)*N-n-1</Text-field>
+</Output>
+</Group>
+<Group labelreference="L74" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SeqFromRec:=proc(ope,n,N,Ini,K)  local ope1,gu,L,n1,j1:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=Yafe(ope,N)[2]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L:=degree(ope1,N):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if nops(Ini)&lt;&gt;L then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> ERROR(`Ini should be of length`, L):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=expand(subs(n=n-L,ope1)/N^L):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gu:=Ini:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for n1 from nops(Ini)+1 to K do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gu:=[op(gu), -add(gu[nops(gu)+1-j1]*subs(n=n1,coeff(ope1,N,-j1)),</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">j1=1..L)]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gu:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">INI:=[seq(add(eval(subs({k=k1,n=n1},F)),k1=0..n1),n1=1..degree(ope,N))]</Text-field>
+</Input>
+</Group>
+<Group labelreference="L75" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#--------------------------------------------------------------------------------</Text-field>
+</Input>
+</Group>
+<Group labelreference="L76" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">getSequence:= proc(F,n,K,N, L1)local ope, i,Ini, ope1, L, coe1, gu, n1:</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope:=SumTools[Hypergeometric][Zeilberger](F,n,k,N)[1];</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=expand(ope):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L:=degree(ope1,N):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">coe1:=coeff(ope1,N,L):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=normal(ope1/coe1):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=normal(ope1):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ope1:=convert([seq(factor(coeff(ope1,N,i))*N^i,i=ldegree(ope1,N)..degree(ope1,N))],`+`):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L:=degree(ope1,N):</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false">Ini:=[seq(add(eval(subs({k=k1,n=n1},F)),k1=0..n1),n1=1..degree(ope,N))]:</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"></Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if nops(Ini)&lt;&gt;L then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> ERROR(`Ini should be of length`, L):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false">ope1:=expand(subs(n=n-L,ope1)/N^L):</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false">gu:=Ini:</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"></Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for n1 from nops(Ini)+1 to L1 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gu:=[op(gu), -add(gu[nops(gu)+1-j1]*subs(n=n1,coeff(ope1,N,-j1)),</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">j1=1..L)]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"></Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L77" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">getSequence(binomial(n, k)*binomial(n+k, k), n,K,N, 15);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[3, 13, 63, 321, 1683, 8989, 48639, 265729, 1462563, 8097453, 45046719, 251595969, 1409933619, 7923848253, 44642381823]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L78" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Yafe(w,N)[2];</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">(n+1)/(n+2)-3*(2*n+3)*N/(n+2)+N^2</Text-field>
+</Output>
+</Group>
+<Group labelreference="L79" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L80" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L81" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Help(InfoA2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`InfoA2(A,n,k,N,L1,r): Given  A=[[a1,b1],[a2,b2],x]`</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">` where a1 , b1,a2,b2, and x are positive integers `
+` and a small positive integer r, outputs a list consisting of `
+` (i) The summand binomial(n,k)*binomial(a1*n+b1*k,k)*binomial(a2*n+b2*k,k)*x^k `
+` (ii) The first L1 terms of the sequence Sum(binomial(n,k)*binomial(a1*n+b1*k,k)*x^k,k=0..n) `
+` (iii) The recurrence operator satisfied by the sequence using the Zeilberger algorithm `
+` (iv) The growth constant `
+` (v) The critical exponent `
+` (vi) The estimated asymptotics to order r `
+` Try: `
+` InfoA2([[1,0],[1,0],1],n,k,N,100,2); `</Text-field>
+</Output>
+</Group>
+<Group labelreference="L82" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L83" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">InfoA2([[1,0],[1,0],1],n,k,N,20,2);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[binomial(n, k)^3, [2, 10, 56, 346, 2252, 15184, 104960, 739162, 5280932, 38165260, 278415920, 2046924400, 15148345760, 112738423360, 843126957056, 6332299624282, 47737325577620, 361077477684436, 2739270870994736, 20836827035351596], -8*(n+1)^2+(-7*n^2-21*n-16)*N+(n+2)^2*N^2, 8., -1, .3675525969*8.000000000^n*(1.-.3333331131/n+0.3742263038e-1/n^2)/n^1.000000000]</Text-field>
+</Output>
+</Group>
+<Group labelreference="L84" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">A := &lt;1,2&gt;;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">A := Vector[column](2, {1 = 1, 2 = 2}, datatype = anything, storage = rectangular, order = Fortran_order, shape = [])</Text-field>
+</Output>
+</Group>
+<Group labelreference="L85" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">B := &lt;0.3675525969*8.000000000^n*(1. - 0.3333331778/n + 0.03727027504/(n^2))/n^1.000000000,0.2198880611*54.58757981^n*(1. - 0.1915412755/n + 0.01838756636/(n^2))/n^1.000000000&gt;;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">B := Vector[column](2, {1 = .3675525969*8.000000000^n*(1.-.3333331778/n+0.3727027504e-1/n^2)/n^1.000000000, 2 = .2198880611*54.58757981^n*(1.-.1915412755/n+0.1838756636e-1/n^2)/n^1.000000000}, datatype = anything, storage = rectangular, order = Fortran_order, shape = [])</Text-field>
+</Output>
+</Group>
+<Group labelreference="L86" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L87" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L88" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L89" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(0.2198880611*54.58757981^n*(1. - 0.1915412755/n + 0.01838756636/(n^2))/n^1.000000000);</Text-field>
+</Input>
+<Output>
+<Text-field style="Maple Plot" layout="Maple Plot"><Plot height="400.0" type="two-dimensional" width="400.0" plot-scale="1.0" plot-xtrans="0.0" plot-ytrans="0.0" gridlinevisibility="1" legendvisibility="false">NiotJSdDVVJWRVNHNiQ3XHg3JCQhJCsiISIiJCExQTx0X3BzUyYqISNONyQkITEoWyhcKip5JVsqKSohIzokITE9ZWNOXWxvOSEjTTckJCExeGE0PmNOLikqISM6JCExZCo9Knk4eVBAISNNNyQkITFBWCE0KUhZKygqISM6JCExUng0YkE5aEshI003JCQhMSllPE5JKSlvZiohIzokITE4LW1xOk0qKVwhI003JCQhMWpDXCkqZSFRXCohIzokITFKISlvISk9KSk9dyEjTTckJCEwJXljOGBCKVIqISM5JCExSEhEeSczI0c2ISNMNyQkITE5RmEzdkYqSCohIzokITA3SWJrZVVwIiEjSzckJCExRV4tMF8kcD4qISM6JCEyJillYykpPmctZSMhI003JCQhMWtHZDk2I1w0KiEjOiQhMUFfISozb3pDUiEjTDckJCExJzM8TTMoKSoqKSopISM6JCEydjE6UTEiKUcvJyEjTTckJCExIkhlOzhodiopKSEjOiQhMUMkWyEzX2FRKSkhI0w3JCQhMURdKyw5XiR6KSEjOiQhMmpNdXomUUVjOCEjTDckJCExLzM7S1cuKm8pISM6JCEyJjNFdmshUl4zIyEjTDckJCExUXljODpOKWUpISM6JCExWSIqKnpaIlxjSiEjSzckJCExWiUqKXl4QHBcKSEjOiQhMmFfeC5xQy1nJSEjTDckJCExdFcqKXlIPylRKSEjOiQhMVdibCl5WC4/KCEjSzckJCExKFF4YSpRNSdIKSEjOiQhMVl3KlJYXUQwIiEjSjckJCEwPE1vd3EqKT0pISM5JCEyY3VybidmRVA7ISNLNyQkITF1WyhcelJUNCkhIzokITFRbGhVLj1AQyEjSjckJCExQlolKik9JjQhKnohIzokITIyJik+NTJnKD5QISNLNyQkITEqKXpmPiwtIip5ISM6JCExSF9Idy10KmYmISNKNyQkITFmPlJ5Y2soeSghIzokITF2KltbWEZCZSkhI0o3JCQhMSR5YzhuOkZwKCEjOiQhMkVlLUR2dC9GIiEjSjckJCExYTM8TTNLIWYoISM6JCEyR1Y2Kj5ZKipSPiEjSjckJCExKFJ6ZVBoUlsoISM6JCEyeCIzZGxXIT4sJCEjSjckJCExcFF4YV5QIlIoISM6JCExOkZMO3kielQlISNJNyQkITEoWyhcKlx6OEgoISM6JCExRnFvX1pGJG8nISNJNyQkITF2XSwuVTIpPSghIzokITJfVU0kZUg9RDUhI0k3JCQhMTtKaUMsLCgzKCEjOiQhMSdmJGY6NVFlOiEjSDckJCExLzM7S2FBKilwISM6JCEyJ2UuLVopKlJQQiEjSTckJCExdl0sLkFsISlvISM6JCEyO0s+L1MlNG5PISNJNyQkITIwPlF3SyU0JHknISM7JCEyL2RwKHldXChcJiEjSTckJCExND1Pcy8kKnltISM6JCExTnhvKDRfRVopISNINyQkITFVJSlvUERhJWUnISM6JCEydl42KEhBN2E3ISNINyQkITFcKXBSZl44WychIzokITItMi1KJG8pZiM+ISNINyQkITFYKil5ZHBEJVEnISM6JCExYTwlcCUzWiUpRyEjRzckJCEyMDtLazNsRkcnISM7JCEydWRed1FhM1MlISNINyQkITF6ZDpKI1FOPSchIzokITBoLk5tJD1gbSEjRjckJCExUXhhNHBsemchIzokITJRSG9TZDllLSIhI0c3JCQhMWM3RF1vZ3pmISM6JCEyJCpRJUdzRC9kOiEjRzckJCExXi4yOTdIeGUhIzokITI9Wy1CPllsUSMhI0c3JCQhMXZdLC5HI2V4JiEjOiQhMSRcdzpzNmlrJCEjRjckJCExJHljOChRZSNvJiEjOiQhMSY+cChwPzIlUSYhI0Y3JCQhMVQkb09gQGRkJiEjOiQhMVxedmRmNT4lKSEjRjckJCExQlkjXGVVLFsmISM6JCExXEshM2Y8aUQiISNFNyQkITFoQVghXE4jeWAhIzokITB4O0IlW1VEPiEjRDckJCExXCoqKXpSKHAhRyYhIzokITJ2eiIzJltNJykqRyEjRjckJCExTnFTIilRUnNeISM6JCEwI2ZpPFlFblghI0Q3JCQhMVwpcFIqNGh5XSEjOiQhMTdMKyo+U014JyEjRTckJCExWiUqKXlkbUAoXCEjOiQhMilbeCEqeV8qKWY1ISNFNyQkITExN0NbUzp2WyEjOiQhMlEnejtzdW4lZiIhI0U3JCQhMXRZJHBlUCFwWiEjOiQhMSZwRWciUUYlXCMhI0Q3JCQhMXljOEZxWnhZISM6JCExdUkuIWZTMm4kISNENyQkITImSGY9UC0/dFghIzskITFQLUEkRzVHcSYhI0Q3JCQhMV4sLjFTWnNXISM6JCExeiUpUmMqZkR0KSEjRDckJCEyOlUlKW9kOD1QJSEjOyQhMmxTT0gmcGJQOCEjRDckJCExI1snSGZNX3JVISM6JCEyKClvLDU/JW9ZPyEjRDckJCExSmpFYGc8dlQhIzokITFoYHlRP2QiMyQhI0M3JCQhMSUqKXlkJj4tclMhIzokITFZYTshSDAkKnolISNDNyQkITE9UHVbYnZyUiEjOiQhMiV5MUpLSmlEdCEjRDckJCEyMUNbJ0hCR25RISM7JCEybVJXVSZlNVc2ISNDNyQkITJQclUmMyozRngkISM7JCEyRm9XZVY7VHIiISNDNyQkITJrTXBRZCg9b08hIzskITEkKj1ZSTMlPW8jISNCNyQkITImPVB1W1Yyb04hIzskIS9Rdmo4ITQ3JSEjQDckJCEyLzA1PyFbP29NISM7JCExa1hGY1AuSmohI0I3JCQhMUxvT3QxKlFPJCEjOiQhMS0vN0QpSFIjKiohI0I3JCQhMT5Rd19OInlFJCEjOiQhMkYuSUp1ZUZdIiEjQjckJCEyJHpmPlJ1VHBKISM7JCEyJFthX29JITNJIyEjQjckJCEyVyY0PlFreGdJISM7JCEyJT0lKnpsQy4obyQhI0I3JCQhMWtGYjU0VGlIISM6JCExWVM9b2ppZGMhI0E3JCQhMVQkb090OD0nRyEjOiQhMWk8L2dlW3goKSEjQTckJCExKiopemYqKjMmZkYhIzokITI5MVUkUjQlUlAiISNBNyQkITFhMzxNNVpsRSEjOiQhMjknUTZ5aCx4PyEjQTckJCEyMUlnP2hIX2MjISM7JCEyaUVIXCpbckpLISNBNyQkITJWJjM8TTd2bEMhIzskITEwMk1jI28sLSYhI0A3JCQhMmFHZDlIUyRmQiEjOyQhMUY/OU4pUSNlISkhI0A3JCQhMTE2QVdzVmxBISM6JCEyJilbYlZgKCplQSIhI0A3JCQhMnZfMDZpIzRkQCEjOyQhMWV0ZUZTRCUqPiEjPzckJCExJXplPCYqPiRmPyEjOiQhMWIiNE4nM2osSiEjPzckJCEyMDpJZyt6RCc+ISM7JCExZiU+LFhNVCJbISM/NyQkITJzRmI1VF4mZT0hIzskITBbOTcnUSgpW3ghIz43JCQhMXZdLC5JNWE8ISM6JCEyJTRpSVY6VmE3ISM/NyQkITJ1VSYzPC8yZjshIzskITJGckFMJilHPCY+ISM/NyQkITJMITM7Sys6ZTohIzskITFsOTpOJTNbOCQhIz43JCQhMigpKioqKioqZmgnZjkhIzskITE2UnIlUiYpSCsmISM+NyQkITE3RF0rIioqR04iISM6JCExYCV6eGU7J2UkKSEjPjckJCEyPFF3XyYpPjBFIiEjOyQhMnN2Pyo+bGI2OCEjPjckJCEyMU1vTyQqPVc6IiEjOyQhMjxMaTJGUSc+QSEjPjckJCEyY0JaJSpbeVkwIiEjOyQhMXUnZTsjUTx4TyEjPTckJCExeHNYIkg5IWYmKiEjOyQhMVA+JVsnXElOaCEjPTckJCExSnhhNHpYcSYpISM7JCExKkd3Tig+XVI1ISM8NyQkITFyVihbKEg+aXYhIzskITFLYFFVPVc6PSEjPDckJCExKillPE4hXE1cJyEjOyQhMi9zVVcydWZQJCEjPTckJCExSHVbKFw6Tl4mISM7JCExTCZ5UmAuJyk9JyEjPDckJCExbDtMbV8+WVghIzskITIlZSV6KTRyWyY9IiEjPDckJCExJlsnSGZlOTdOISM7JCExcGAnSGJATmcjISM7NyQkITJCPVB1W1ouWyMhIzwkITFXSiZwS0gjM28hIzs3JCQhMSRSemU8WlViIiEjOyQhMTsjUncrcldGIyEjOjckJCExSEprR2Q5c1ghIzwkITJEa2I2NVA9ZyYhIzo3JCQiMVIjZj1QOXRnJSEjPCQiMShcJCo9KyMqKWVKISM5NyQkIjJDLzU/U3NWYCIhIzwkIjJOQEVpZSU9NTkhIzs3JCQiMmFMbk1wZSFmRCEjPCQiMUZqUiNcTkhGIiEjOjckJCIxTHVbKFwiKVJaJCEjOyQiMlkmZSY+VV9sXyIhIzs3JCQiLihSenkhSF0lISM4JCIyLm9tJz4leXYnPiEjOzckJCIxVWpFYFlsUWIhIzskIjF6QDlWKFwjKWYjISM6NyQkIjEkZjxOcXklcGwhIzskIjFiRXFaJipbek0hIzo3JCQiMUFRd19YPUR2ISM7JCIxPUgmRzYyOGglISM6NyQkIjEjMzpJZ2laXikhIzskIjFYIWY5UlsjSGkhIzo3JCQiMVk0PlFjPVEmKiEjOyQiMTxRUk9KUnMmKSEjOjckJCIyd05yVWxLZTAiISM7JCIyM1tzbiwwcD0iISM6NyQkIjJoOEZhb20yOyIhIzskIjJkPDpEWTgkcDshIzo3JCQiMiNIZj1QRT5gNyEjOyQiMkMnM3hDK3drQSEjOjckJCIybj5SeU9Vc04iISM7JCIyYj05ekh1dD8kISM6NyQkIjJ3VCRvTyQ+PFkiISM7JCIxUm52UmpQb1ghIzk3JCQiMlBRd19ELUNjIiEjOyQiMSYpPlxLPjBaayEjOTckJCIyWHhhNCo+JFFsIiEjOyQiMTkhR0wieStSKSkhIzk3JCQiMiNcKFwqKnldRHciISM7JCIyRzBTSjsiSCFIIiEjOTckJCIyTCRvT3QpXFkmPSEjOyQiMUAzJVJiKSk9eSIhIzg3JCQiMjgwNT8rJHloPiEjOyQiMSlSSycpSD8uZyMhIzg3JCQiMmxNcFEoUmhjPyEjOyQiMSNbPkZtRzNrJCEjODckJCIxKFwqKil6JmUxOyMhIzokIjFgcChwZlx3RiYhIzg3JCQiMjNCWSNcT3RmQSEjOyQiMUw0elwpbyNIdiEjODckJCIyN0VfLzQzSk8jISM7JCIxVzckUl8sRjQiISM3NyQkIjIoUXVbKDRRIWVDISM7JCIxYWIlcGZxL2EiISM3NyQkIjImb0xuTUhWZ0QhIzskIjInKmZlbSN6S01BISM4NyQkIjJWI1snSFIjem1FISM7JCIxSCpwJUctWCNIJCEjNzckJCIyT05xU2h5JGZGISM7JCIxbFUpZW5fIz5ZISM3NyQkIjFNbk1wVVBmRyEjOiQiMTNgP1InKipmbSchIzc3JCQiMVgiSGVjekUnSCEjOiQiMWA1VyQqbyh6dSohIzc3JCQiMnM1QFVrVlAxJCEjOyQiMiVIS1YuXkI6OSEjNzckJCIyeFQkb08kRzo7JCEjOyQiMkY8PHclKjQ9LiMhIzc3JCQiMnY5SGVjLCxGJCEjOyQiMigqKlwqZmNMKFFJISM3NyQkIjIoSGc/VCVmd08kISM7JCIxVTNFJikqW2tPJSEjNjckJCIyRFQjWydIQj1aJCEjOyQiMlgkcHMoSCNbTmshIzc3JCQiMHliNkI2aWMkISM5JCIxLzV3TSUpPl8iKiEjNjckJCIxclYoWzwtJXBPISM6JCIybGIlPSE0KSpmTSIhIzY3JCQiMXlfMDZvXG1QISM6JCIyRmwhKTMhMz5PPiEjNjckJCIyOjE3Q28pKXonUSEjOyQiMTdhXngpPUskRyEjNTckJCIyRVcpb1BiQG5SISM7JCIxSkd2JltJSzYlISM1NyQkIjElWydIZm80clMhIzokIjFSKHpFemMwMychIzU3JCQiMmInSGY9cDlyVCEjOyQiMT5gQVoxOGwpKSEjNTckJCIxb1F4YURZdFUhIzokIjI6VG5YKGZGLzghIzU3JCQiMVoiSGUnNCRcUCUhIzokIjFLLjNWIW9QIj4hIio3JCQiMVB1WygqKXAib1chIzokIjEuN0BpeEZCRiEiKjckJCIxemU8TkEudlghIzokIjFtJGVgV3dAMyUhIio3JCQiMjBnPlI9NjFuJSEjOyQiMGgpKkhwOWMnZSEiKTckJCIwJz5SeSM9RHglISM5JCIxKG9BclJ6bGopISIqNyQkIjJORmEzUGMrKFshIzskIjJDZ3MoKltIN0QiISIqNyQkIjEnPVB1KSlmJHlcISM6JCIxVnVwbCVcIyopPSEiKTckJCIxc1YoW3hVQDImISM6JCIyMXRMJSl5Uy1xIyEiKjckJCIxdVomND4oZXleISM6JCIxIjNRLigzZF5TISIpNyQkIjE6SWc/KCpmdl8hIzokIjFsMWJxVlttZSEiKTckJCIxWyY0Pj07PFEmISM6JCIxLUpQamd6KHopISIpNyQkIjFXJjM8dXdLWiYhIzokIjJNWmA8Uy4lWzchIik3JCQiMkRIZTtgYHZkJiEjOyQiMEUkSC0/SGc9ISInNyQkIjFyUyJHd3ojeWMhIzokIjFbJ0cuJT5hTkYhIig3JCQiLylmPj5TKnlkISM4JCIxaEU/JSpcdkFTISIoNyQkIjFReGE0LkJ6ZSEjOiQiMTt1SElqJSozZiEiKDckJCIyOip5ZDp4ZHZmISM7JCIxJjMnPXFjXl4mKSEiKDckJCIyJkhgMTg9dHpnISM7JCIya0koUiZIa2JGIiEiKDckJCIxLjA1PyMpKip5aCEjOiQiMicpb09VQ3F4Jz0hIig3JCQiMSIpZj5SOVokRychIzokIjFBOXlmcSE0eiMhIic3JCQiMTI6SWdbL3lqISM6JCIxImYkNGE6WjpTISInNyQkIjF3WyhcPm1EWychIzokIjEiZSlbdyZRVCsnISInNyQkIjEvMDU/JXpFZSchIzokIjFXT3JHam9HKSkhIic3JCQiMXNUJG8nKltEbychIzokIjJgVC9YV2pzSCIhIic3JCQiMSdReGE0am95JyEjOiQiMkxvY0lNRiZSPiEiJzckJCIxLi8zOy0lSClvISM6JCIyI1JzZCJ5IW80RyEiJzckJCIxVyNbJ0hqTCIpcCEjOiQiMS1Rb0kkenY1JSEiJjckJCIxbUtsSXQoKiozKCEjOiQiMWs6KSo9bGVbaSEiJjckJCIwWSJIZUdNKT0oISM5JCIxd0AwVElfUCIqISImNyQkIjApZTxOKyUqKUcoISM5JCIyLVFJVDZIIVs4ISImNyQkIjFBVidHeFc3UighIzokIjJBa3NfXVZBKyMhIiY3JCQiMXBMbk1GRyZbKCEjOiQiMjkkZl9jIlszKUchIiY3JCQiMUFSeWNUXyZlKCEjOiQiMUNwRjJwUFlVISIlNyQkIjImcExuTUQrJm8oISM7JCIxT09vcFh0VGkhIiU3JCQiMU9wUXhNVCJ6KCEjOiQiMU5lJ1JfIylmVSohIiU3JCQiMTlKaUNsSiYpeSEjOiQiMigqKTR4SkBNYzghIiU3JCQiMSZwUXg5aE8qeiEjOiQiMUtsTTJNUWs/ISIkNyQkIjFGYTM8UVYiNCkhIzokIjF4OGRGV0o7SSEiJDckJCIxc1MiR3d1Iik9KSEjOiQiMWBdJHA4LS1SJSEiJDckJCIxWyopeWRCPyNIKSEjOiQiMWZQL2J3MnVsISIkNyQkIjFaIkhld11tUikhIzokIjAnNCcqcHopPScpKiEiIzckJCIxJnplPE4kbyJcKSEjOiQiMmQmeTJQTlpFOSEiJDckJCIxPk1vT1BnI2YpISM6JCIxbCdmIWYhSDg2IyEiIzckJCIxQVUlKW9ANCJwKSEjOiQiMlg0LiEqKjMqZjQkISIkNyQkIjByVCRvWSZ5eikhIzkkIjAuVSc0eSkpKW8lISIiNyQkIjAleWM4UkIhKikpISM5JCIyOzo5WkgjKWVyJyEiJDckJCIwKWU8TltMJyoqKSEjOSQiMkxYUDpWclosIiEiIzckJCIxKSlwUnpfMic0KiEjOiQiMjt0clMjeS0nXCIhIiM3JCQiMSdcKXBSQiZbPiohIzokIjI7bWdbdzt2PiMhIiM3JCQiMVolKil5KHpxJEgqISM6JCIxRDl4dSd6I0hLISIiNyQkIjEmeWM4Wk1YUiohIzokIjFSdzsjPmhEeSUhIiI3JCQiMU5tS2wpMzldKiEjOiQiMT1xaDxdbl9zISIiNyQkIjF4YTQ+QVMqZiohIzokIjJzRnFSJlFjaTUhIiI3JCQiMW1LbEkjb3hrKiEjOiQiMVo3aHZnLCRHIiIiITckJCIxYjVAVVU4J3AqISM6JCIxbEVVWExDXDoiIiE3JCQiMTpHYzduJHl1KiEjOiQiMXVcKVxiYV8qPSIiITckJCIxdlgiSD1SJip6KiEjOiQiMk43VCcpRzInPUIhIiI3JCQiMWQ1QFVUTEQpKiEjOiQiMG8pW2slKSlSYyMiIiI3JCQiMVJ2XSwiSDYmKSohIzokIjEpZlheVWRgJEciIiE3JCQiMC0vMzFDcCgpKiEjOSQiMiZHdE1nJG9hOCQhIiI3JCQiMS0wNT8hPkYhKiohIzokIjFYJCkqemBudFkkIiIhNyQkIjF3YDJsI1JxIyoqISM6JCIxMSZwZ2ZHQyJRIiIhNyQkIjFeLTA1JmY4JioqISM6JCIxdFFFKj1gPT4lIiIhNyQkIjFFXi1iKHpjKCoqISM6JCIxY1ttXmQxNFkiIiE3JCQiJCsiISIiJCIxNHU4KT1LeTEmIiIhLSUmQ09MT1JHNiclJFJHQkckIilDKWVxJSEiKSQiIiEhIiIkIignPiFcJiEiKS0lK19BVFRSSUJVVEVHNiMvJSdzb3VyY2VHJSxtYXRoZGVmYXVsdEctJSVWSUVXRzYkOyQiIiEhIiIkIiQrIiEiIjskIiIhISIiJCIoKysrIiEiIi0mJSZfQVhJU0c2IyIiIjYoLSUrX0dSSURMSU5FU0c2Jy0lJkNPTE9SRzYmJSRSR0JHJCIiISEiIiQiIiEhIiIkIiIhISIiLSUqTElORVNUWUxFRzYjIiIhLSUqVEhJQ0tORVNTRzYjIiIhLSUtVFJBTlNQQVJFTkNZRzYjJCIiISEiIi0lKV9WSVNJQkxFRzYjIiIhLSUmQ09MT1JHNiYlJFJHQkckIiIhISIiJCIiISEiIiQiIiEhIiItJSpMSU5FU1RZTEVHNiMiIiEtJSpUSElDS05FU1NHNiMiIiEtJS1UUkFOU1BBUkVOQ1lHNiMkIiIhISIiLSUqX1NVQlRJQ0tTRzYjIiIhLSYlJl9BWElTRzYjIiIjNigtJStfR1JJRExJTkVTRzYnLSUmQ09MT1JHNiYlJFJHQkckIiIhISIiJCIiISEiIiQiIiEhIiItJSpMSU5FU1RZTEVHNiMiIiEtJSpUSElDS05FU1NHNiMiIiEtJS1UUkFOU1BBUkVOQ1lHNiMkIiIhISIiLSUpX1ZJU0lCTEVHNiMiIiEtJSZDT0xPUkc2JiUkUkdCRyQiIiEhIiIkIiIhISIiJCIiISEiIi0lKkxJTkVTVFlMRUc2IyIiIS0lKlRISUNLTkVTU0c2IyIiIS0lLVRSQU5TUEFSRU5DWUc2IyQiIiEhIiItJSpfU1VCVElDS1NHNiMiIiEtJStBWEVTTEFCRUxTRzYkLUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2NVEibjYiLyUnZmFtaWx5R1EhNiIvJSVzaXplR1EjMTA2Ii8lJWJvbGRHUSZmYWxzZTYiLyUnaXRhbGljR1EldHJ1ZTYiLyUqdW5kZXJsaW5lR1EmZmFsc2U2Ii8lKnN1YnNjcmlwdEdRJmZhbHNlNiIvJSxzdXBlcnNjcmlwdEdRJmZhbHNlNiIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXTYiLyUrYmFja2dyb3VuZEdRLlsyNTUsMjU1LDI1NV02Ii8lJ29wYXF1ZUdRJmZhbHNlNiIvJStleGVjdXRhYmxlR1EmZmFsc2U2Ii8lKXJlYWRvbmx5R1EmZmFsc2U2Ii8lKWNvbXBvc2VkR1EmZmFsc2U2Ii8lKmNvbnZlcnRlZEdRJmZhbHNlNiIvJStpbXNlbGVjdGVkR1EmZmFsc2U2Ii8lLHBsYWNlaG9sZGVyR1EmZmFsc2U2Ii8lNnNlbGVjdGlvbi1wbGFjZWhvbGRlckdRJmZhbHNlNiIvJSxtYXRodmFyaWFudEdRJ2l0YWxpYzYiUSE2Ii0lKV9WSVNJQkxFRzYjIiIiLSUlUk9PVEc2Jy0lKUJPVU5EU19YRzYjJCIkUychIiItJSlCT1VORFNfWUc2IyQiJD8iISIiLSUtQk9VTkRTX1dJRFRIRzYjJCIlXUshIiItJS5CT1VORFNfSEVJR0hURzYjJCIlZ00hIiItJSlDSElMRFJFTkc2Ii0lK0FOTk9UQVRJT05HNictJSlCT1VORFNfWEc2IyQiIiEhIiItJSlCT1VORFNfWUc2IyQiIiEhIiItJS1CT1VORFNfV0lEVEhHNiMkIiUrUyEiIi0lLkJPVU5EU19IRUlHSFRHNiMkIiUrUyEiIi0lKUNISUxEUkVORzYiRzYi</Plot></Text-field>
+</Output>
+</Group>
+<Group labelreference="L90" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L91" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L92" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L115" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
